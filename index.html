@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>N13 — приложения для iPhone, Watch и Mac</title>
+  <meta name="description" content="N13 — небольшие приложения для iPhone, Apple Watch и Mac. Одна задача — одно приложение.">
+  <meta name="theme-color" content="#FFFFFF" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="nav">
+    <div class="nav__inner container">
+      <a class="nav__brand" href="#top">N13</a>
+      <nav class="nav__links" aria-label="Главное меню">
+        <a href="#apps">Apps</a>
+        <a href="#about">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero container" id="top">
+      <div class="hero__text">
+        <h1 class="hero__title">Одно приложение — одна задача.</h1>
+        <p class="hero__sub">Небольшие инструменты для iPhone, Apple Watch и Mac.</p>
+        <a class="link-arrow" href="balance.html">Смотреть N13 Balance →</a>
+      </div>
+
+      <figure class="hero__media" id="apps">
+        <a class="device-link" href="balance.html" aria-label="Открыть страницу N13 Balance">
+          <span class="device">
+            <img class="device__screen" src="assets/balance/screen.png" alt="Экран приложения N13 Balance" width="1179" height="2556">
+            <img class="device__frame" src="assets/iphone-16-pro-white.png" alt="" aria-hidden="true" width="1350" height="2760">
+          </span>
+        </a>
+        <figcaption class="device-cap">
+          <span class="device-cap__name">N13 Balance</span>
+          <span class="device-cap__meta">Расходы и бюджеты · iOS</span>
+        </figcaption>
+      </figure>
+    </section>
+
+    <section class="section section--line container" id="about">
+      <h2 class="section__title">About</h2>
+      <p class="prose">N13 — один разработчик. Делаю приложения, которыми пользуюсь сам, и довожу детали, которые обычно пропускают.</p>
+    </section>
+  </main>
+
+  <footer class="footer container">
+    <span>© 2026 N13</span>
+    <a href="#top">Наверх</a>
+  </footer>
+</body>
+</html>
